@@ -1,1 +1,4 @@
 # fm_project
+
+task:
+find the value of CAPM model beta (indicator that helps compute how much higher the rish free rate is above risk free rate) using both top-down approach and bottom-up approach. Top-down approach involves finding the value of beta by running a regression model with previous year data of returns of the target company with marlet returns. Bottom-up approach includes running the same regression for similar companies and finding their average to find the value of beta. In the second approach, another factor to be considered is how each company has a different capital structure, therefore, we need to unlever the beta for all the comparable companies, find the average and then relever it again for the target company. Leverage or levering beta helps take into account the debt to equity ratio of a company. 
